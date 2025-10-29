@@ -7,7 +7,7 @@ interface NavBalkProps {
 
 function NavBalk({ isAuthenticated = false }: NavBalkProps) {
   const navItems = [
-    { to: "/screening-room", label: "Screening Room", emoji: "🎬" },
+    { to: "/ScreeningRoom", label: "Screening Room", emoji: "🎬" },
     { to: "/movie-detail", label: "Movie Details", emoji: "🎥" },
   ];
 
